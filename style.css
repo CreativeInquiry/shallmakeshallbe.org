@@ -84,10 +84,11 @@ strong {
     color: #FD156C;
 }
 
-h1, h2, h3, h4, h5, h6 {
+/* h1, h2, h3, h4, h5, h6 {
     font-family: Futura; 
     font-weight: 700;
-}
+    text-transform: uppercase;
+} */
 
 header {
     display: flex;
@@ -95,6 +96,7 @@ header {
     align-items: flex-end;
     justify-content: center;
     padding: 2em 1em 4em 1em;
+    text-transform: uppercase;
 }
 
 header img {
@@ -130,6 +132,7 @@ h1 span {
     font-size: .5em;
     display: inline-block;
     color: #FD156C;
+    text-transform: uppercase;
 }
 
 main {
@@ -144,23 +147,38 @@ main {
 h2 {
     color: #FD156C;  
     padding-top: 2em;
-    font-size: .9em;
+    font-size: 16px;
     line-height: 1.5em;
+    text-transform: uppercase;
 }
 
 .leftColumn {
-	with: 60%;
+	/* width: 80%; */
 	float: left;
 }
 
+.leftColumn {
+    line-height: 1.5rem;
+}
+
+.leftColumn h3 {
+	color: #1d1d1d;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 1.5em;
+}
+
 .leftColumn h4 {
-	font-family: Helvetica, Arial, sans-serif;
-	color: rgba(255,255,255,0.42);
+	color: #1d1d1d;
+    font-size: 16px;
+    text-decoration: underline;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
 }
 
 .rightColumn {
 	width: auto;
-	background: rgba(255,255,255,0.42);
+	background: white;
     padding: 1em;
 	float: left;
 }
@@ -173,8 +191,8 @@ h2 {
     font-size: 7em;
     line-height: 1em;
     padding-bottom: .08em;
-    border-bottom: .16em solid #fff;
-    color: #464646;
+    border-bottom: .1em solid #F0F0F0;
+    color: #1d1d1d;
     margin-bottom: -0.04em;
 }
 
