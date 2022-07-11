@@ -11,14 +11,26 @@
           gtag('config', 'UA-171567980-1');
         </script>
 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <div class="topnav" id="myTopnav">
-            <a href="#a11y">Accessibility</a>
-            <a href="#games">Games</a>
-            <a href="#home" class="active">Home</a>
+            <a href="/index.html">Home</a>
+            <a href="/games.html">Games</a>
+            <a href="/accessibility.html">Accessibility</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
               <i class="fa fa-bars"></i>
             </a>
           </div>
+
+          <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+            </script>
 
         <title>Shall Make, Shall Be: The Bill of Rights at Play</title>
         <meta name="description" content="Shall Make, Shall Be: The Bill of Rights at Play">
@@ -58,6 +70,7 @@
     the back of the main floor rotunda on 15 Pine St. North. All informational stands and games are at wheelchair level. 
     All restrooms are wheelchair accessible. Restrooms are located on the basement floor, which can be accessed through elevator.
 </p>
+<img src="images/spatialmap.png" style="max-width: 90%; padding-bottom: 24px;" alt="A spatial map of Federal Hall">
 
 <h3>Individuals who are blind or have low vision</h3>
 <p>
@@ -91,20 +104,20 @@
 <p>
     QR codes are placed throughout the Museum to provide features and resources created to enhance your visit. Here’s how to use them: 
 </p>
-<p>
+<p style="padding-top:2em">
    iOS Devices 
 </p>
 <li>Open the Camera app from the Home Screen, Control Center, or Lock Screen.</li>
 <li>Select the rear facing camera. Hold your device so that the QR code appears in the viewfinder in the Camera app. Your device recognizes 
     the QR code and shows a notification.</li>
 <li>Tap the notification to open the link associated with the QR code.</li>
-<p>
+<p style="padding-top:2em">
     Android Devices 
  </p>
  <li>Open the camera app.</li>
  <li>Select the rear-facing camera in Photo or Camera mode and center the QR code that you want to scan on the screen.</li>
  <li>Tap the notification that pops up to open the link.</li>
- <p>
+ <p style="padding-top:2em">
     If no notification appears, follow these instructions to use Google Lens:
  </p>
  <li>Tap the color lens icon in Google Assistant, or open the Google Lens app.</li>
